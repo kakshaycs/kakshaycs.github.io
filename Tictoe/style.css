@@ -25,18 +25,38 @@ button{
 	border-radius: 20px;
 	text-align: center;
 	color: red;
-	font-size: 50px;
+	font-size: 40px;
 	font-family:grid-row-end; 
 }
 .container{
 	text-align: center;
 	background: #F8F642;
 	width: 100%;
+	
 }
 
 .container1{
 	background:#F9BAFD;
-	padding :100px;
-	height: 100vh;
+	padding :50px;
+	height: 100%;
+	
 }
 
+.restart{
+	text-align: center;
+	padding: 50px;
+
+
+}
+.btn {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100px;
+    border-radius: 10px;
+    color: red;
+}
+
+.btn:hover {
+    background-color: #EEF019; /* Green */
+    color: white;
+}
